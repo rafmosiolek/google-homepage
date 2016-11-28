@@ -18,4 +18,52 @@ body {
 
 }
 
-#
+#search-bar, #search-buttons {
+    text-align: center;
+
+}
+
+#search-bar {
+    margin-top: 20px;
+
+
+}
+
+#search-bar input {
+
+    width: 600px;
+    height: 45px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box;
+    overflow: hidden;
+    padding: 6px 9px 0;
+    line-height: 0;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+
+
+}
+
+#search-buttons {
+    margin-top: 20px;
+
+}
+
+#search-buttons input {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
