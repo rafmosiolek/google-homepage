@@ -1,0 +1,21 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    height: 100vh;
+
+}
+
+#main {
+    margin-top: 89px;
+}
+
+#main img {
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+    display: block; 
+    margin: auto;
+
+}
+
+#
