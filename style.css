@@ -18,6 +18,46 @@ body {
 
 }
 
+#navbar {
+    position: absolute;
+    top: 10px;
+    padding-left: 80%;
+    padding-right: 20px;
+}
+
+#navbar img {
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    line-height: normal;
+    opacity: 0.55px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+
+}
+
+#navbar a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: #646464;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
 #search-bar, #search-buttons {
     text-align: center;
 
@@ -66,4 +106,52 @@ body {
     padding: 0 16px;
     text-align: center;
 }
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: -9px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 40px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+
+
+
+
+
+}
+
+footer .left-col {
+    float: left;
+    padding-left: 15px;
+
+}
+
+footer .right-col {
+    float: right;
+    padding-right: 27px;
+
+}
+
+footer .left-col a, .right-col a {
+    text-decoration: none;
+    padding-left: 27px;
+    color: #646464;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+footer .left-col a:hover, .right-col a:hover {
+    text-decoration: underline;
+}
+
+footer .left-col a:active, .right-col a:active {
+    color: #dd4b39;
+}
+
 
