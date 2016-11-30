@@ -55,6 +55,33 @@ body {
     cursor: pointer;
 }
 
+#navbar span {
+    width: 80px;
+    height: 60px;
+
+}
+
+#navbar span a {
+    cursor: default;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    font-weight: bold;
+    outline: none;
+    background-color: #4285f4;
+
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+#navbar span a:hover {
+    text-decoration: none;
+    cursor: default;
+}
 
 
 
